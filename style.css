@@ -1,0 +1,78 @@
+body {
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+.content {
+    width: 20%;
+    height: 400px;
+    background-color: #121212;
+    border-radius: 10px;
+    position: relative;
+    text-align: center; /* Center align the text within the content div */
+    color: white; /* Set the text color */
+}
+.profile-picture {
+    position: absolute; /* Position the photo absolutely within the content div */
+    top: 15%; /* Position the photo vertically in the middle of the content div */
+    left: 50%; /* Position the photo horizontally in the middle of the content div */
+    transform: translate(-50%, -50%); /* Center the photo exactly in the middle */
+    width: 55px; /* Adjust the width of the photo */
+    height: 55px; /* Adjust the height of the photo */
+    background-image: url('https://media-hbe1-2.cdn.whatsapp.net/v/t61.24694-24/212818241_1619849421704331_5842776660292599427_n.jpg?ccb=11-4&oh=01_ASChRbf5SbONPeugL3MFJEc_JIOSu5c9B62JedUWx04PVA&oe=6628B787&_nc_sid=e6ed6c&_nc_cat=100'); /* Replace 'path/to/your/photo.jpg' with the path to your photo */
+    background-size: cover; /* Ensure the photo covers the entire area */
+    background-position: center; /* Center the photo within its container */
+    border-radius: 50%; /* Make the photo appear as a circle */
+}
+.My-Name, .My-Address, .My-Job-Title {
+    position: absolute;
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+}
+
+.My-Name {
+    bottom: 63%; /* Adjust the vertical position */
+    color: white;
+    font-size: 20px;
+}
+
+.My-Address {
+    bottom: 59%; /* Adjust the vertical position */
+    color: #808000;
+    font-size: 17px; 
+}
+
+.My-Job-Title {
+    bottom: 54%; /* Adjust the vertical position */
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    width: 80%; /* Set the width to 80% of the content */
+    left: 50%; /* Center the boxes horizontally */
+    transform: translateX(-50%); /* Center the boxes horizontally */
+    text-align: center;
+}
+
+.social-media div {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px; /* Adjust the space between each social media link */
+}
+
+.social-media div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
