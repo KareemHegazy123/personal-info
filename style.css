@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%); /* Center the photo exactly in the middle */
     width: 55px; /* Adjust the width of the photo */
     height: 55px; /* Adjust the height of the photo */
-    background-image: url('https://media-hbe1-2.cdn.whatsapp.net/v/t61.24694-24/212818241_1619849421704331_5842776660292599427_n.jpg?ccb=11-4&oh=01_ASChRbf5SbONPeugL3MFJEc_JIOSu5c9B62JedUWx04PVA&oe=6628B787&_nc_sid=e6ed6c&_nc_cat=100'); /* Replace 'path/to/your/photo.jpg' with the path to your photo */
+    background-image: url('https://media-hbe1-2.cdn.whatsapp.net/v/t61.24694-24/212818241_1619849421704331_5842776660292599427_n.jpg?ccb=11-4&oh=01_Q5AaIMTmCs3z322x-cdL49F5Y5kyyR8d1Vqq7_Wc_pyl3Sbb&oe=66652447&_nc_sid=e6ed6c&_nc_cat=100'); /* Replace 'path/to/your/photo.jpg' with the path to your photo */
     background-size: cover; /* Ensure the photo covers the entire area */
     background-position: center; /* Center the photo within its container */
     border-radius: 50%; /* Make the photo appear as a circle */
